@@ -15,6 +15,7 @@ queried. The beer details should include:
 ## How it's done
 
 The app was created using a simple MVC pattern altogether with Dependency Injection. It is created using PHP7 syntax and the only dependency is MySQL database. There's no web server dependency (feel free to use either Apache or Nginx). The system is Ubuntu 16 working on Virtual Machine (Vagrant). Code is well commented. Keep the current structure of the folders to have it working properly due to using namespaces. So it should be 'localhost' -> 'RandomBeer' folder -> bootstrap 'index.php' file and then the rest of the project in another 'RandomBeer' folder.
+The UI is based on JS Bootstrap library, the initial beer data (when the page loads for the first time) is fetched through a regular Controller -> Model -> View request, the subsequent beer data is pulled from the API through an AJAX call.
 
 ## DB structure with initial data:
 
