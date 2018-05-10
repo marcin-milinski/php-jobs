@@ -12,6 +12,10 @@ queried. The beer details should include:
 * The alcohol percentage (abv)
 * The brewery location
 
+## How it's done
+
+The app was created using a simple MVC pattern altogether with Dependency Injection. It is created using PHP7 syntax and the only dependency is MySQL database. There's no web server dependency (feel free to use either Apache or Nginx). The system is Ubuntu 16 working on Virtual Machine (Vagrant). Code is well commented. Keep the current structure of the folders to have it working properly due to using namespaces. So it should be 'localhost' -> 'RandomBeer' folder -> bootstrap 'index.php' file and then the rest of the project in another 'RandomBeer' folder.
+
 ## DB structure with initial data:
 
 ```
