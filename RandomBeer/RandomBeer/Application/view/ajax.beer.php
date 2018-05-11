@@ -10,4 +10,4 @@
 
     <dt class="col-md-3">Brewery location:</dt>
     <dd class="col-md-9" id="beer-location"><?php echo htmlspecialchars($beer['brewery_location']); ?></dd>
-<dl>
+</dl>
